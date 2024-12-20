@@ -1,0 +1,67 @@
+/* SignUp.css */
+
+.signup-container {
+    max-width: 800px; /* Set a max width for the form */
+    margin: 50px auto; /* Center the form on the page */
+    padding: 20px; /* Add some padding */
+    border: 1px solid #ccc; /* Add a border */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    background-color: #f9f9f9; /* Light background color */
+}
+
+h2 {
+    text-align: center; /* Center the heading */
+    margin-bottom: 40px; /* Space below the heading */
+}
+
+form {
+    display: flex; /* Use flexbox for layout */
+    flex-direction: column; /* Stack elements vertically */
+}
+
+div {
+    margin-bottom: 15px; /* Space between form elements */
+}
+
+label {
+    margin-bottom: 5px; /* Space below labels */
+    font-weight: bold; /* Make labels bold */
+}
+
+input[type="email"],
+input[type="password"],
+input[type="tel"],
+select {
+    padding: 10px; /* Padding inside input fields */
+    border: 1px solid #ccc; /* Border for input fields */
+    border-radius: 4px; /* Rounded corners for input fields */
+    font-size: 12px; /* Font size for input fields */
+}
+
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="tel"]:focus,
+select:focus {
+    border-color: #007bff; /* Change border color on focus */
+    outline: none; /* Remove default outline */
+}
+
+button {
+    padding: 10px; /* Padding inside the button */
+    background-color: #007bff; /* Button background color */
+    color: white; /* Button text color */
+    border: none; /* Remove border */
+    border-radius: 4px; /* Rounded corners for button */
+    font-size: 16px; /* Font size for button */
+    cursor: pointer; /* Change cursor to pointer */
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+.error {
+    color: red; /* Error message color */
+    font-size: 14px; /* Font size for error messages */
+}

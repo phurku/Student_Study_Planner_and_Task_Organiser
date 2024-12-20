@@ -1,0 +1,51 @@
+/* index.css */
+
+/* Reset some default browser styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif; /* Set a default font */
+    background-color: #f8f9fa; /* Light gray background */
+    color: #343a40; /* Dark gray text */
+    line-height: 1.6; /* Improve readability */
+}
+
+/* Global link styles */
+a {
+    text-decoration: none; /* Remove underline from links */
+    color: #007bff; /* Bootstrap primary color */
+    transition: color 0.3s; /* Smooth color transition */
+}
+
+a:hover {
+    color: #0056b3; /* Darker shade on hover */
+}
+
+/* Button styles */
+button {
+    cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+/* Utility classes */
+.text-center {
+    text-align: center; /* Center text */
+}
+
+.mt-2 {
+    margin-top: 0.5rem; /* Margin top utility */
+}
+
+.mb-2 {
+    margin-bottom: 0.5rem; /* Margin bottom utility */
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    body {
+        padding: 1rem; /* Add padding on smaller screens */
+    }
+}

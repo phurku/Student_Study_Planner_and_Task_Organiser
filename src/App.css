@@ -1,0 +1,60 @@
+/* App.css */
+
+/* General styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4; /* Light background color */
+}
+
+/* Container for the app */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Full height */
+}
+
+/* Header styles */
+.app-header {
+  background-color: #4CAF50; /* Green background */
+  color: white; /* White text */
+  padding: 20px;
+  text-align: center;
+}
+
+/* Navigation styles */
+.nav {
+  background-color: #333; /* Dark background for nav */
+  overflow: hidden; /* Clear floats */
+}
+
+.nav-link {
+  float: left; /* Align links to the left */
+  display: block; /* Make links block elements */
+  color: white; /* White text */
+  text-align: center; /* Center text */
+  padding: 14px 16px; /* Padding for links */
+  text-decoration: none; /* Remove underline */
+}
+
+.nav-link:hover {
+  background-color: #ddd; /* Light background on hover */
+  color: black; /* Black text on hover */
+}
+
+/* Main content area styles */
+.app-main {
+  flex: 1; /* Take up remaining space */
+  padding: 20px; /* Padding for main content */
+  background-color: white; /* White background for main content */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Footer styles */
+.app-footer {
+  background-color: #4CAF50; /* Green background */
+  color: white; /* White text */
+  text-align: center; /* Center text */
+  padding: 10px; /* Padding for footer */
+}
